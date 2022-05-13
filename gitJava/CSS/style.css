@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: rgb(175,103,233);
+background: linear-gradient(180deg, rgba(175,103,233,1) 42%, rgba(101,101,231,1) 100%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+main{
+    height: 500px;
+    width: 87%;
+    margin: 60px auto 0px auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+#illustration{
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    top: -105px
+}
+
+#faq{
+    border: 1px solid red;
+    height: 380px;
+    width: 90%;
+    margin: 0px auto;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+.dNone{
+    display: none ;
+}
+
+footer{
+    display: none;
+}
